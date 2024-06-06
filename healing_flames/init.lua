@@ -16,3 +16,5 @@ function OnPlayerSpawned(player_entity)
 	end
 	
 end
+
+ModLuaFileAppend( "data/scripts/perks/perk_list.lua", "mods/healing_flames/files/perk_list_appends.lua")
