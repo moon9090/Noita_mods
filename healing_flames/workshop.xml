@@ -1,6 +1,11 @@
 <Mod
 	name="Healing Flames"
-	description="Fire heals you."
+	description="
+With Healing Flames, fire heals all wounds. The challenge with this new power is staying lit.
+Soaked cloaks are hard to burn, so try to keep dry (the perk that freezes all liquids can be
+helpful). Healing Flames also removes the protection from fire and oil blood perks, which would
+prevent ignition if acquired. Adjust healing rate in settings. Adjustments take effect upon game
+start/restart. Beware, explosions and lava still hurt!"
 	tags="gameplay,perks,quality of life,tweaks"
 	dont_upload_folders=""
 	dont_upload_files=""

@@ -15,3 +15,4 @@ function remove_perk( perk_name )
 end
 
 remove_perk( "PROTECTION_FIRE" )
+remove_perk( "BLEED_OIL" )
