@@ -7,6 +7,9 @@ function remove_perk( perk_name )
 		if( perk.id == perk_name) then
 			key_to_perk = key
 		end
+		if( perk.game_effect == "PROTECTION_FIRE") then --remove effect from bleed oil
+			perk.game_effect = ""
+		end
 	end
 
 	if( key_to_perk ~= nil ) then
@@ -15,4 +18,4 @@ function remove_perk( perk_name )
 end
 
 remove_perk( "PROTECTION_FIRE" )
-remove_perk( "BLEED_OIL" )
+remove_perk( "FREEZE_FIELD" )
