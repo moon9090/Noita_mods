@@ -1,6 +1,5 @@
 dofile("data/scripts/lib/mod_settings.lua")
 
-
 local mod_id = "Healing Flames"
 mod_settings_version = 1
 mod_settings = {
@@ -8,13 +7,13 @@ mod_settings = {
 	{
         id = "multiplier_of_healing_flames",
         ui_name = "Multiplier of the healing flames",
-        value_default = 5,
-        value_min = 0.1,
+        value_default = 3,
+        value_min = 1,
         value_max = 10,
         value_display_formatting = " $0 x flame = heal",
         scope = MOD_SETTING_SCOPE_NEW_GAME,
-    }
-    
+    },
+	
 }
 
 function ModSettingsUpdate( init_scope )
