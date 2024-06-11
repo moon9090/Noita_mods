@@ -1,14 +1,18 @@
 <Mod
 	name="Healing Flames"
 	description="
-	With Healing Flames, fire heals all wounds. The challenge with this new power is staying lit.
-	Soaked cloaks are hard to burn, so try to keep dry. Healing Flames also removes the fire protection
-	perk and all fire protection effects from other perks (e.g., oil blood), which prevent ignition.
-	Adjust healing rate in settings. Adjustments take effect upon game start. Beware, explosions and
-	lava are good ignition sources, but they still hurt!
+*Now featuring an altered visual effect while burning (added 11 June 2024).*
+
+With Healing Flames, fire heals all wounds. The challenge with this new power is staying lit.
+Soaked cloaks are hard to burn, so try to keep dry. Healing Flames also removes the fire
+protection perk and all fire protection effects from other perks (e.g., oil blood), which prevent
+ignition. A visual effect (flame shift) was added with the second release. Colors and contrast
+are shifted a bit while burning. Toggle flame shift on/off and adjust healing rate in settings.
+Adjustments take effect upon game start. Beware, explosions and lava are good ignition sources,
+but they still hurt!
 
 Source code: https://github.com/moon9090/Noita_mods/tree/main/healing_flames"
-	tags="gameplay,perks,quality of life,tweaks"
+	tags="gameplay,perks,quality of life,tweaks,graphics"
 	dont_upload_folders=""
 	dont_upload_files=""
 > 

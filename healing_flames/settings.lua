@@ -7,12 +7,28 @@ mod_settings = {
 	{
         id = "multiplier_of_healing_flames",
         ui_name = "Multiplier of the healing flames",
-        value_default = 3,
+        value_default = 5,
         value_min = 1,
         value_max = 10,
         value_display_formatting = " $0 x flame = heal",
         scope = MOD_SETTING_SCOPE_NEW_GAME,
     },
+	{
+		category_id = "shader_settings",
+		ui_name = "Visual effects of the healing flames",
+		foldable = true,
+		_folded = true,
+		settings = {
+			{
+				id = "visual_shift",
+				ui_name = "Flame shift",
+				ui_description = "Shifts visuals while you burn",
+				value_default = true,
+				scope = MOD_SETTING_SCOPE_NEW_GAME,
+			},
+		}	
+		
+	},
 	
 }
 

@@ -1,3 +1,15 @@
+dofile_once( "mods/healing_flames/files/flame_shift.lua" )
+
+local shifted = ModSettingGet("Healing Flames.visual_shift")
+
+if(shifted == true) then
+	function OnWorldPreUpdate()
+		local players = EntityGetWithTag("player_unit")
+		if(players ~= nil) then
+			flame_shift(players)
+		end
+	end
+end
 
 function OnPlayerSpawned(player_entity)
 
@@ -14,11 +26,8 @@ function OnPlayerSpawned(player_entity)
 		for i,damagemodel in ipairs(damagemodels) do
 		
 			local mult = ModSettingGet("Healing Flames.multiplier_of_healing_flames")
-			
 			local fire = tonumber(ComponentObjectGetValue( damagemodel, "damage_multipliers", "fire" ) )
-
 			fire = fire * -mult
-
 			ComponentObjectSetValue( damagemodel, "damage_multipliers", "fire", tostring(fire) )
 
 		end
