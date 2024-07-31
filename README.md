@@ -3,8 +3,6 @@
 
 
 <span style="font-size:1.5em;">[1] Healing Flames</span>
- <sub>[![Steam Workshop](https://img.shields.io/steam/subscriptions/3261949285?label=Steam+Workshop)](https://steamcommunity.com/sharedfiles/filedetails/?id=3261949285)</sub>
+ <sub>[![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3261949285?label=Steam%20Subscriptions&color=blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=3261949285)</sub>
 
-<span style="font-size:1.5em;">[2] in progress</span>
-
-Questions, suggestions, comments, welcome.
+<span style="font-size:1.5em;">[2] ...</span>
